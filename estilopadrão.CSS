@@ -8,6 +8,13 @@
   --cor-ciano: rgb(0, 255, 255);
   --cor-magenta: rgb(255, 0, 255);
   --cor-brat: rgb(138, 206, 0);
+  --cor-fundo: rgb(200, 40, 40);
+  --cor-letra: whitesmoke;
+  }
+  
+body {
+    background-color: var(--cor-fundo);
+    background-size: 100% 100%;
 }
 
 p,ol,li {
