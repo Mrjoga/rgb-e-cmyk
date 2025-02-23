@@ -43,7 +43,14 @@ header {
   background-color: var(--cor-letra);
 }
 
-details {max-height: 300px; overflow-y: auto;}
+details {
+  color: var(--cor-letra);
+  background-color: var(--cor-fundo);
+  border: 1px solid var(--cor-letra);
+  cursor: pointer;
+  max-height: 300px; 
+  overflow-y: auto;
+}
 
 section {
     border: 1px solid var(--cor-letra);
