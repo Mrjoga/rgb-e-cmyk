@@ -72,6 +72,11 @@ header{
   font-size: 2em;
 }
 
+header.p{
+  color: var(--cor-fundo);
+  font-size: 2em;
+}
+
 details {
     scrollbar-width: thin;
     scrollbar-color: var(--cor-fundo) transparent;
