@@ -71,7 +71,7 @@ details > summary {
     padding: 4px;
     width: 160px;
     border: none;
-    color: var(--cor-letra);
+    color: var(--cor-fundo);
     cursor: pointer;
     margin: 10px;
     text-align: left;
