@@ -1,3 +1,15 @@
+:root {
+  --cor-preto: rgb(0, 0, 0);
+  --cor-branco: rgb(255, 255, 255);
+  --cor-vermelho: rgb(255, 0, 0);
+  --cor-verde: rgb(0, 255, 0);
+  --cor-azul: rgb(0, 0, 255);
+  --cor-amarelo: rgb(255, 255, 0);
+  --cor-ciano: rgb(0, 255, 255);
+  --cor-magenta: rgb(255, 0, 255);
+  --cor-brat: rgb(138, 206, 0);
+}
+
 p,ol,li {
     color: var(--cor-letra);
     text-align: justify;
@@ -130,4 +142,42 @@ img.capa {
 
 p.footer {
   font-size: 250%;
+}
+
+#preto {
+  background-color: var(--cor-preto);
+  color: var(--cor-branco);
+}
+
+#branco {
+  background-color: var(--cor-branco);
+}
+
+#vermelho {
+  background-color: var(--cor-vermelho);
+}
+
+#verde {
+  background-color: var(--cor-verde);
+}
+
+#azul {
+  background-color: var(--cor-azul);
+  color: var(--cor-branco);
+}
+
+#amarelo {
+  background-color: var(--cor-amarelo);
+}
+
+#ciano {
+  background-color: var(--cor-ciano);
+}
+
+#magenta {
+  background-color: var(--cor-magenta);
+}
+
+#brat {
+  background-color: var(--cor-brat);
 }
