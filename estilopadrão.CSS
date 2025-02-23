@@ -52,12 +52,6 @@ section {
     background: var(--cor-fundo);
 }
 
-.rascunho-title {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-
 *::-webkit-scrollbar {
     width: 10px;
 }
@@ -73,14 +67,14 @@ section {
 
 details {
     scrollbar-width: thin;
-    scrollbar-color: var(--cor-fundo) transparent;
+    scrollbar-color: var(--cor-letra) transparent;
 }
 
 details > summary {
     padding: 4px;
     /*width: 160px;*/
     border: none;
-    color: var(--cor-fundo);
+    color: var(--cor-letra);
     cursor: pointer;
     margin: 10px;
     text-align: center;
