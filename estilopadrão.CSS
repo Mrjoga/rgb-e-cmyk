@@ -41,7 +41,6 @@ header {
   display: flex; gap: 20px;
   color: var(--cor-fundo);
   background-color: var(--cor-letra);
-  font-size: 2em;
 }
 
 details {max-height: 300px; overflow-y: auto;}
@@ -72,7 +71,7 @@ details {
 
 details > summary {
     padding: 4px;
-    /*width: 160px;*/
+    width: 160px;
     border: none;
     color: var(--cor-letra);
     cursor: pointer;
