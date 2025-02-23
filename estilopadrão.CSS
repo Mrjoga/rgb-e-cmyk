@@ -43,15 +43,6 @@ header {
   background-color: var(--cor-letra);
 }
 
-details {
-  color: var(--cor-letra);
-  background-color: var(--cor-fundo);
-  border: 1px solid var(--cor-letra);
-  cursor: pointer;
-  max-height: 300px; 
-  overflow-y: auto;
-}
-
 section {
     border: 1px solid var(--cor-letra);
     width: 330px;
@@ -83,7 +74,7 @@ details > summary {
     color: var(--cor-letra);
     cursor: pointer;
     margin: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 main {
