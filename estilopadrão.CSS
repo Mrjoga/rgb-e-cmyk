@@ -37,7 +37,12 @@ button {
   cursor: pointer;
 }
 
-header {display: flex; gap: 20px;}
+header {
+  display: flex; gap: 20px;
+  color: var(--cor-fundo);
+  background-color: var(--cor-letra);
+  font-size: 2em;
+}
 
 details {max-height: 300px; overflow-y: auto;}
 
@@ -64,17 +69,6 @@ section {
 
 *::-webkit-scrollbar-track {
     background-color: transparent;
-}
-
-header{
-  color: var(--cor-fundo);
-  background-color: var(--cor-letra);
-  font-size: 2em;
-}
-
-header.p{
-  color: var(--cor-fundo);
-  font-size: 2em;
 }
 
 details {
