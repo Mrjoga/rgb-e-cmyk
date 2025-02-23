@@ -66,6 +66,11 @@ section {
     background-color: transparent;
 }
 
+header{
+  color: var(--cor-fundo);
+  background-color: var(--cor-letra);
+}
+
 details {
     scrollbar-width: thin;
     scrollbar-color: var(--cor-letra) transparent;
@@ -130,9 +135,8 @@ a:link, a:visited {
 footer {
   margin: 5px;
   padding: 50px;
-  border: 1px solid var(--cor-letra);
-  background: var(--cor-fundo);
-  color: var(--cor-letra);
+  background: var(--cor-letra);
+  color: var(--cor-fundo);
   width: auto;
   height: auto;
   border-radius: 15px;
