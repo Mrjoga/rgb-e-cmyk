@@ -69,6 +69,7 @@ section {
 header{
   color: var(--cor-fundo);
   background-color: var(--cor-letra);
+  font-size: 2em;
 }
 
 details {
