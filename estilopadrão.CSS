@@ -78,7 +78,7 @@ details {
 
 details > summary {
     padding: 4px;
-    width: 160px;
+    /*width: 160px;*/
     border: none;
     color: var(--cor-letra);
     cursor: pointer;
