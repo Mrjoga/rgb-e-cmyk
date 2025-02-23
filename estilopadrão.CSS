@@ -140,6 +140,7 @@ footer {
   width: auto;
   height: auto;
   border-radius: 15px;
+  align-items: center;
 }
 
 img.capa {
