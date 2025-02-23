@@ -152,6 +152,7 @@ img.capa {
 
 p.footer {
   font-size: 250%;
+  color: var(--cor-fundo);
 }
 
 #preto {
