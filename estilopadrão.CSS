@@ -49,6 +49,11 @@ section {
     background: var(--cor-letra);
 }
 
+ol.sumary {
+    color: var(--cor-fundo);
+    background: var(--cor-letra);
+}
+
 *::-webkit-scrollbar {
     width: 10px;
 }
