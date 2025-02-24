@@ -16,7 +16,7 @@ body {
     background-color: var(--cor-fundo);
 }
 
-p, li, ol {
+p,li,ol {
     color: var(--cor-letra);
     text-align: justify;
     font-size: 1.2em;
@@ -38,8 +38,7 @@ header {
 
 section {
     width: 330px;
-    background: var(--cor-letra);
-    color: var(--cor-fundo);
+    background: var(--cor-fundo);
 }
 
 *::-webkit-scrollbar {
