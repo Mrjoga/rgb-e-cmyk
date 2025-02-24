@@ -30,6 +30,14 @@ h1,h2,h3 {
     margin-bottom: 0.5em
 }
 
+li{
+    color: var(--cor-fundo);
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
 button {
   color: var(--cor-letra);
   background-color: var(--cor-fundo);
@@ -44,7 +52,6 @@ header {
 }
 
 section {
-    border: 1px solid var(--cor-fundo);
     width: 330px;
     background: var(--cor-letra);
 }
