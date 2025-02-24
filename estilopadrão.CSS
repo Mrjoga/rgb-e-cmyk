@@ -46,6 +46,7 @@ header {
 section {
     width: 330px;
     background: var(--cor-letra);
+    color: var(--cor-fundo);
 }
 
 *::-webkit-scrollbar {
