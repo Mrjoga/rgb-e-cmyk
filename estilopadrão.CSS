@@ -16,7 +16,7 @@ body {
     background-color: var(--cor-fundo);
 }
 
-p,ol,li {
+p {
     color: var(--cor-letra);
     text-align: justify;
     font-size: 1.2em;
