@@ -30,13 +30,6 @@ h1,h2,h3 {
     margin-bottom: 0.5em
 }
 
-button {
-  color: var(--cor-letra);
-  background-color: var(--cor-fundo);
-  border: 1px solid var(--cor-letra);
-  cursor: pointer;
-}
-
 header {
   display: flex; gap: 20px;
   color: var(--cor-fundo);
@@ -85,22 +78,7 @@ main {
   
 div.content {
     padding: 20px;
-  }  
-
-section.letra {
-  width: 50%; 
-  height: 300px; 
-  overflow-y: auto; 
-  margin-left: 0; 
-  border: 1px solid var(--cor-letra); 
-  padding: 10px;}
-
-div.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding:15px;
-    border: none;
-}
+  }
 
 div.gallery {
   margin: 5px;
@@ -133,14 +111,6 @@ footer {
   height: auto;
   border-radius: 15px;
   align-items: center;
-}
-
-img.capa {
-  width:360px;
-  height:360px;
-  float:right;
-  margin: 5px;
-  border: 1px solid var(--cor-letra);
 }
 
 p.footer {
