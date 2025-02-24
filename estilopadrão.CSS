@@ -44,9 +44,9 @@ header {
 }
 
 section {
-    border: 1px solid var(--cor-letra);
+    border: 1px solid var(--cor-fundo);
     width: 330px;
-    background: var(--cor-fundo);
+    background: var(--cor-letra);
 }
 
 *::-webkit-scrollbar {
